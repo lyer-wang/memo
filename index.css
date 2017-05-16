@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: #FFF;
+    overflow: hidden;
+}
+.header{
+    height: 80px;
+    background: black;
+}
+#el{
+    width:100%;
+    height: 100%;
+}
+.content{
+    position: relative;
+    width: 100%;
+    height:90%;
+}
+.note{
+    width: 240px;
+    position: absolute;
+    top:200px;
+    height: auto;
+    left: 120px;
+    border:1px solid black;
+}
+.note .title{
+    cursor: pointer;
+    height: 40px;
+    /*border:1px solid black;*/
+    text-align: center;
+    line-height: 40px;
+    color: #FFF;
+}
+.note .content{
+    min-height: 300px;
+    padding: 15px;
+    background: #fff;
+}
+.pink{
+    background: red;
+}
+.red{
+    background: pink;
+}
+.blue{
+    background: blue;
+}
+.black{
+    background: black;
+}
+.note textarea{
+    width: 100%;
+    min-height: 200px;
+    outline: none;
+    resize: none;
+    border: none;
+}
+.title{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    height: 40px;
+    background: red;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+button{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 20px;
+    height:20px;
+    opacity: 0;
+}
